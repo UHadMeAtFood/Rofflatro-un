@@ -42,7 +42,7 @@ SMODS.Joker{
 					if G.jokers.cards[i].ability.name ~= "j_roff_MainChannel"then
 						if doExclude then
 							ROFF.funcs.mod_card_values(G.jokers.cards[i].ability,{
-								multiply = 1.5,
+								add = 1,
 								x_protect = true,
 								unkeywords = {
 									odds = true,
@@ -54,7 +54,7 @@ SMODS.Joker{
 							})
 						elseif G.jokers.cards[i].ability.name == "Ramen" then
 							ROFF.funcs.mod_card_values(G.jokers.cards[i].ability,{
-								multiply = 1.5,
+								add = 1,
 								x_protect = true,
 								unkeywords = {
 									Xmult = true
@@ -62,7 +62,7 @@ SMODS.Joker{
 							})
 						elseif G.jokers.cards[i].ability.name == "Loyalty Card" then
 							ROFF.funcs.mod_card_values(G.jokers.cards[i].ability,{
-								multiply = 1.5,
+								add = 1,
 								x_protect = true,
 								unkeywords = {
 									odds = true,
@@ -78,7 +78,7 @@ SMODS.Joker{
 							})
 						elseif G.jokers.cards[i].ability.name == "Campfire" or G.jokers.cards[i].ability.name == "Hit the Road" then
 							ROFF.funcs.mod_card_values(G.jokers.cards[i].ability,{
-								multiply = 1.5,
+								add = 1,
 								x_protect = true,
 								unkeywords = {
 									odds = true,
@@ -92,7 +92,7 @@ SMODS.Joker{
 							})
 						else
 							ROFF.funcs.mod_card_values(G.jokers.cards[i].ability,{
-								multiply = 1.5,
+								add = 1,
 								x_protect = true,
 								unkeywords = {
 									odds = true,
